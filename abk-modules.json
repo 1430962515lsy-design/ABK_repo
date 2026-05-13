@@ -3,8 +3,8 @@
   "modules": [
     {
       "name": "ABK Control Module",
-      "version": "0.1.0",
-      "description": "Expose ABK external module metadata and a shared kernel control interface through /dev/abk_control.",
+      "version": "0.4.0",
+      "description": "Expose ABK external module metadata and a shared kernel-side control interface.",
       "repoUrl": "https://github.com/xingguangcuican6666/ABK_control_module",
       "defaultStage": "after_patch",
       "supportedStages": [
