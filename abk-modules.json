@@ -2,6 +2,23 @@
   "name": "ABK 官方模块仓库",
   "modules": [
     {
+      "name": "ABK Control Module",
+      "version": "0.1.0",
+      "description": "Expose ABK external module metadata and a shared kernel control interface through /dev/abk_control.",
+      "repoUrl": "https://github.com/xingguangcuican6666/ABK_control_module",
+      "defaultStage": "after_patch",
+      "supportedStages": [
+        "after_patch",
+        "before_build"
+      ],
+      "recommendedStages": [
+        "after_patch",
+        "before_build"
+      ],
+      "author": "xingguangcuican6666",
+      "homepage": "https://github.com/xingguangcuican6666/ABK_control_module"
+    },
+    {
       "name": "ABK Dirty SELinux Guard",
       "version": "0.2.0",
       "description": "Patch and audit dirty SELinux policy grants after ABK source patching.",
