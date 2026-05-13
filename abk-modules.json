@@ -11,6 +11,10 @@
         "after_patch",
         "before_build"
       ],
+      "recommendedStages": [
+        "after_patch",
+        "before_build"
+      ],
       "author": "xingguangcuican6666",
       "homepage": "https://github.com/xingguangcuican6666/ABK_NO_ANYTHING_CAN_CHECK"
     }
