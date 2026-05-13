@@ -1,0 +1,18 @@
+{
+  "name": "ABK 官方模块仓库",
+  "modules": [
+    {
+      "name": "ABK Dirty SELinux Guard",
+      "version": "0.2.0",
+      "description": "Patch and audit dirty SELinux policy grants after ABK source patching.",
+      "repoUrl": "https://github.com/xingguangcuican6666/ABK_NO_ANYTHING_CAN_CHECK",
+      "defaultStage": "after_patch",
+      "supportedStages": [
+        "after_patch",
+        "before_build"
+      ],
+      "author": "xingguangcuican6666",
+      "homepage": "https://github.com/xingguangcuican6666/ABK_NO_ANYTHING_CAN_CHECK"
+    }
+  ]
+}
